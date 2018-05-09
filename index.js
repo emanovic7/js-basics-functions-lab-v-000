@@ -16,6 +16,6 @@ function distanceFromHqInFeet(blkNum){
   }
 }
 
-function distanceTravelledInFeet(){
+function distanceTravelledInFeet(pickUp, dropOff){
   
 }
