@@ -16,3 +16,6 @@ function distanceFromHqInFeet(blkNum){
   }
 }
 
+function distanceTravelledInFeet(){
+  
+}
