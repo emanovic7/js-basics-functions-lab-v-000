@@ -12,6 +12,6 @@ function distanceFromHqInFeet(blkNum){
    if (blkNum > 42) {
     return (blkNum - 42)*264;
   } else {
-    return 42 - blkNum;
+    return (42 - blkNum)*264;
   }
 }
