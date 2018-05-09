@@ -15,3 +15,4 @@ function distanceFromHqInFeet(blkNum){
     return (42 - blkNum)*264;
   }
 }
+
