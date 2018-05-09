@@ -9,5 +9,9 @@ function distanceFromHqInBlocks(blkNum){
 }
 
 function distanceFromHqInFeet(blkNum){
-  
+   if (blkNum > 42) {
+    return (blkNum - 42)*264;
+  } else {
+    return 42 - blkNum;
+  }
 }
