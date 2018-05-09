@@ -24,8 +24,8 @@ function distanceTravelledInFeet(pickUp, dropOff){
   }
 }
 
-function calculatesFarePrice (start, destination) {
-  const distance = distanceTravelledInFeet(start, destination);
+function calculatesFarePrice (pickUp, dropOff) {
+  const distance = distanceTravelledInFeet(pickUp, dropOff);
 
   if (distance <= 400) {
     return 0;
