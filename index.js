@@ -17,6 +17,9 @@ function distanceFromHqInFeet(blkNum){
 }
 
 function distanceTravelledInFeet(pickUp, dropOff){
-  const distance = (dropOff - pickUp)*264;
-  return distance;
+   if (pickUp < dropOff) {
+    return (dropOff - pickUp) * 264;
+  } else {
+    return (pickUp - dropOff) * 264;
+  }
 }
